@@ -6,6 +6,8 @@ Logger logger = Logger.getLogger(ReportController.class.getName());
 logger.info(user.getName()+"   "+"项目期："+subproject.getName());
 
 
+
+如果不在框架中使用 （程序中添加配置文件：配置文件放在src目录下）：  PropertyConfigurator.configure("log4j.properties");
 详细解读：
 
 
